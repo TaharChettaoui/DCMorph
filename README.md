@@ -7,10 +7,14 @@ Raghavendra Ramachandra,
 Fadi Boutros, 
 Naser Damer
 
-[[`Paper`](https://openaccess.thecvf.com/content/CVPR2026W/BIOM2026/html/Chettaoui_DCMorph_Face_Morphing_via_Dual-Stream_Cross-Attention_Diffusion_CVPRW_2026_paper.html)] 
+[[`Paper Link`](https://openaccess.thecvf.com/content/CVPR2026W/BIOM2026/html/Chettaoui_DCMorph_Face_Morphing_via_Dual-Stream_Cross-Attention_Diffusion_CVPRW_2026_paper.html)] *Accepted at CVPR-W 2026*
 
 ### Abstract
 Advancing face morphing attack techniques is crucial to anticipate evolving threats and develop robust defensive mechanisms for identity verification systems. This work introduces DCMorph, a dual-stream diffusion-based morphing framework that simultaneously operates at both identity conditioning and latent space levels. Unlike imagelevel methods suffering from blending artifacts or GANbased approaches with limited reconstruction fidelity, DCMorph leverages identity-conditioned latent diffusion models through two mechanisms: (1) decoupled cross-attention interpolation that injects identity-specific features from both source faces into the denoising process, enabling explicit dual-identity conditioning absent in existing diffusionbased methods, and (2) DDIM inversion with spherical interpolation between inverted latent representations from both source faces, providing geometrically consistent initial latent representation that preserves structural attributes. Vulnerability analyses across four state-of-the-art face recognition systems demonstrate that DCMorph achieves the highest attack success rates compared to existing methods at both operational thresholds, while remaining challenging to detect by current morphing attack detection solutions.
+
+### Data
+The DCMorph data can be downloaded from this [[`Link`]()]  (please share your name, affiliation, and official email in the request form).
+
 
 ### Citation
 
